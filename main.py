@@ -36,8 +36,6 @@ def main():
     s = socket.socket(socket.AF_INET, socket.SOCK_RAW, socket.IPPROTO_ICMP)
     s.setsockopt(socket.IPPROTO_IP, socket.IP_HDRINCL, 1)
 
-    
-
     icmp.set_icmp_id(1)
     icmp.set_icmp_cksum(0)
     icmp.auto_checksum = 0
