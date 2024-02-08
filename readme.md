@@ -18,5 +18,6 @@ pip install impcket
 ## Instalação
 
 1. Clone os seguintes repositórios:
-    
     1. TKCR_SPOOFING_IP
+
+2. Instale as dependencias e rode o projeto
